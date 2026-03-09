@@ -6,7 +6,7 @@ The method builds on M3D (Maximum Mean Discrepancy-based distribution matching) 
 ## Project Structure
 
 ```
-DIDD-Minmax/
+DIDD-ASU/
 ├── dil_condense_m3d.py          # Main condensation script
 ├── m3dloss.py                   # M3D loss (MMD with kernel methods)
 ├── util.py                      # Synthesizer, augmentation, evaluation helpers
