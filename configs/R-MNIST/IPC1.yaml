@@ -1,0 +1,38 @@
+size: 28
+nclass: 10
+nch: 1
+net_type: convnet
+depth: 3
+width: 1.0
+batch_real: 128
+batch_syn_max: 200
+mom_img: 0.5
+ipc: 1
+factor: 2
+decode_type: single
+init: mix
+aug_type: color_crop_cutout
+load_memory: True
+norm_type: instance
+epochs: 1500
+batch_size: 64
+workers: 8
+lr: 1e-2
+momentum: 0.9
+seed: 0
+mixup: cut
+beta: 1.0
+mix_p: 0.5
+dsa: True
+dsa_strategy: color_crop_scale_rotate
+epoch_eval_interval: 500
+results_path: logs/
+niter: 10000
+epoch_print_freq: 250
+# ---------------------------------------------------------
+ipm: 5
+kernel: gaussian
+lr_img: 1.
+
+
+
