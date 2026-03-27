@@ -1,7 +1,7 @@
 # [ICLR 2026] Asymmetric Synthetic Data Update for Domain Incremental Dataset Distillation
 
 ## Overview
-The method builds on M3D (Maximum Mean Discrepancy-based distribution matching) and introduces an asymmetric update mechanism that balances **stability** (preserving knowledge from previous domains) and **plasticity** (adapting to new domains) at the per-image tile level.
+The method builds on M3D (Maximum Mean Discrepancy-based distribution matching) and introduces an asymmetric update mechanism that balances **stability** (preserving knowledge from previous domains) and **plasticity** (adapting to new domains).
 
 ## Project Structure
 
@@ -32,7 +32,6 @@ DIDD-ASU/
 
 Edit the config file for your target dataset in `configs/<dataset>/IPC<n>.yaml`:
 - Set `results_path` to your desired output directory
-- Adjust hyperparameters as needed (kernel type, learning rates, etc.)
 
 ### 2. Run Condensation
 
